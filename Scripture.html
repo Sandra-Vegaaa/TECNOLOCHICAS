@@ -1,0 +1,387 @@
+ 
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Sandra Onofre Vega">
+    <meta name="description" content="Portafolio de desarrollo web de Sandra Onofre Vega">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Sandra Onofre Vega | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/2a/1a/67/2a1a676a7300492289a33e30cf8163b5.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="stylepf.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="https://i.pinimg.com/originals/2a/1a/67/2a1a676a7300492289a33e30cf8163b5.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Sobre-pandas">Sobre pandas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="mi foto.jpeg" alt="Foto de Sandra Onofre Vega">
+        <h1>Hola, soy Sandra Onofre Vega</h1>
+        <!--<h2>Conoce acerca de los pandas.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://ih1.redbubble.net/image.580415363.6022/flat,128x,075,f-pad,128x128,f8f8f8.jpg" alt="Self love heals all the woeful feels.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a los pandas.</h2>
+        <p class="seccion-texto">El oso panda es un animal mamífero que habita en zonas montañosas y boscosas de China. Se trata de una especie plantígrada (ya que, al desplazarse, apoya la totalidad de la planta de las manos y de los pies en la superficie) que se caracteriza por la combinación de pelo negro en las orejas, la cara, los hombros y las patas y pelo blanco en el resto del cuerpo.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Un mundo de osos</p>
+            <p> En el Día Internacional de la Protección de los Osos te invitamos a conocer más sobre estas maravillosas especies. #PonteLosAnteojosPorLaVida. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Oso panda</span>
+              <span class="badge text-bg-primary">Oso de anteojos</span>
+              <span class="badge text-bg-primary">Oso polar</span>
+              <span class="badge text-bg-primary">Oso pardo</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Depredadores</p>
+            <p>Con excepción de los seres humanos, el oso negro tiene pocos depredadores.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Puma</span>
+              <span class="badge text-bg-primary">Coyote</span>
+              <span class="badge text-bg-primary">Gato motes</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Habilidades</p>
+            <p>Los osos no tienen una vista aguda. Por el contrario, compensan su falta de campo de visión con un sentido auditivo muy fino, así como un olfato desarrollado.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Cazar</span>
+              <span class="badge text-bg-primary">Trepar</span>
+              <span class="badge text-bg-primary">Correr</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagen proyectos.avif" alt="Proyecto 1">
+              <div class="overlay">
+                <p>¿Qué es?</p>
+                <div class="iconos-contenedor">
+                  <a href="https://definicion.de/oso-panda/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagen proyectos 2.avif" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Peligro de Extinción</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.europapress.es/sociedad/medio-ambiente-00647/noticia-animales-peligro-extincion-oso-panda-20150125162139.html" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagen proyectos.avif" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Panda gigante</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.worldwildlife.org/descubre-wwf/historias/panda-gigante" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagen proyectos 2.avif" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Panda rojo</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.nationalgeographic.es/animales/panda-rojo" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagen proyectos.avif" alt="Proyecto 1">
+              <div class="overlay">
+                <p>¿Cómo crecen?</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.nationalgeographicla.com/animales/2020/11/como-nacen-y-crecen-los-pandas-gigantes" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagen proyectos 2.avif" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Cultura China</p>
+                <div class="iconos-contenedor">
+                  <a href="https://culturaasiatica.com/el-oso-panda-como-simbolo-de-la-cultura-china/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.nationalgeographic.es/animales/oso-panda-gigante" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Oso Panda Gigante: la lenta recuperación de un icono
+            </li>
+          </a>
+          <a href="https://www.nationalgeographic.com.es/animales/osos-panda" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Biografia de un oso panda
+            </li>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dWgMivtRu50" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Donde y como viven?
+            </li>
+          </a>
+          <a href="https://www.zoobarcelona.cat/es/animales/panda-rojo" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Panda rojo
+            </li>
+          </a>
+          <a href="https://www.viaje-a-china.com/oso-de-panda/hechos-interesantes.htm" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Datos curiosos de los pandas
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Datos Importantes</h2>
+      <h3 class="seccion-descripcion">Sabias que...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="panda 1.avif" alt="Panda">
+              <p class="testimonio-texto">Los osos panda NO pueden pararse y hacer movimientos de Kung fu como Po en Kungfu Panda. Pero son buenos trepadores de árboles. ¡Pueden trepar a los árboles a partir de los 7 meses!.Los osos panda son osos y, como otros osos, pueden nadar.</p>
+              <div class="testimonio-info">
+                <p class="cliente">PANDA</p>
+                <p class="cargo">...buen nadador y trepador.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="panda 2.avif" alt="Panda">
+              <p class="testimonio-texto">Los pandas nacen con aspecto de tejones bebés: sin pelo, rosados y ciegos. El icónico color blanco y negro llega más tarde, después de unas tres semanas. ¡No todos los osos panda son blancos y negros! Algunos son marrones y blancos, pero son muy raros.</p>
+              <div class="testimonio-info">
+                <p class="cliente">PANDA</p>
+                <p class="cargo">...su cambio de color.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="panda 3.avif" alt="Panda">
+              <p class="testimonio-texto">"La apariencia de un oso de peluche" es lo que hace que los pandas sean tan populares. Los pandas atraen a nuestros "receptores de ternura" porque tienen ojos grandes que miran hacia el frente y son extremadamente peludos, por lo que los consideramos mimoso y tiernos.</p>
+              <div class="testimonio-info">
+                <p class="cliente">PANDA</p>
+                <p class="cargo">...ternura.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame si deseas conocer un poco mas sobre estas criaturas.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:svega5407@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="panda contacto.avif" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Self love heals all the woeful feels.<br>You fall, you heal, you grow.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/sandra_vegaaaa?igshid=ZDdkNTZiNTM=" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:svega5407@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Sandra Onofre Vega (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
